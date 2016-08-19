@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15997C6A1D64FED40084C399 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15997C691D64FED40084C399 /* main.m */; };
+		15997C6D1D64FED40084C399 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15997C6C1D64FED40084C399 /* AppDelegate.m */; };
+		15997C701D64FED40084C399 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15997C6F1D64FED40084C399 /* ViewController.m */; };
+		15997C731D64FED40084C399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15997C711D64FED40084C399 /* Main.storyboard */; };
+		15997C751D64FED40084C399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15997C741D64FED40084C399 /* Assets.xcassets */; };
+		15997C781D64FED40084C399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15997C761D64FED40084C399 /* LaunchScreen.storyboard */; };
+		15997C831D64FED40084C399 /* OnPaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15997C821D64FED40084C399 /* OnPaceTests.m */; };
+		15997C8E1D64FED40084C399 /* OnPaceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15997C8D1D64FED40084C399 /* OnPaceUITests.m */; };
+		15997C931D64FED40084C399 /* OnPace WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 15997C921D64FED40084C399 /* OnPace WatchKit App.app */; };
+		15997C991D64FED40084C399 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15997C971D64FED40084C399 /* Interface.storyboard */; };
+		15997C9B1D64FED40084C399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15997C9A1D64FED40084C399 /* Assets.xcassets */; };
+		15997CA21D64FED40084C399 /* OnPace WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 15997CA11D64FED40084C399 /* OnPace WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		15997CAA1D64FED40084C399 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15997CA91D64FED40084C399 /* InterfaceController.m */; };
+		15997CAD1D64FED40084C399 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15997CAC1D64FED40084C399 /* ExtensionDelegate.m */; };
+		15997CB01D64FED40084C399 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15997CAF1D64FED40084C399 /* NotificationController.m */; };
+		15997CB31D64FED40084C399 /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15997CB21D64FED40084C399 /* GlanceController.m */; };
+		15997CB51D64FED40084C399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15997CB41D64FED40084C399 /* Assets.xcassets */; };
+		15997CD31D651BA90084C399 /* SetPaceInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15997CD11D651A3C0084C399 /* SetPaceInterfaceController.m */; };
+		15997CD61D651F810084C399 /* TimerInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15997CD51D651F810084C399 /* TimerInterfaceController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15997C7F1D64FED40084C399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15997C5D1D64FED40084C399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15997C641D64FED40084C399;
+			remoteInfo = OnPace;
+		};
+		15997C8A1D64FED40084C399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15997C5D1D64FED40084C399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15997C641D64FED40084C399;
+			remoteInfo = OnPace;
+		};
+		15997C941D64FED40084C399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15997C5D1D64FED40084C399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15997C911D64FED40084C399;
+			remoteInfo = "OnPace WatchKit App";
+		};
+		15997CA31D64FED40084C399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15997C5D1D64FED40084C399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15997CA01D64FED40084C399;
+			remoteInfo = "OnPace WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		15997CBC1D64FED40084C399 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				15997CA21D64FED40084C399 /* OnPace WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15997CC01D64FED40084C399 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				15997C931D64FED40084C399 /* OnPace WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		15997C651D64FED40084C399 /* OnPace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnPace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15997C691D64FED40084C399 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15997C6B1D64FED40084C399 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		15997C6C1D64FED40084C399 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		15997C6E1D64FED40084C399 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		15997C6F1D64FED40084C399 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		15997C721D64FED40084C399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15997C741D64FED40084C399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15997C771D64FED40084C399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15997C791D64FED40084C399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15997C7E1D64FED40084C399 /* OnPaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnPaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15997C821D64FED40084C399 /* OnPaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnPaceTests.m; sourceTree = "<group>"; };
+		15997C841D64FED40084C399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15997C891D64FED40084C399 /* OnPaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnPaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15997C8D1D64FED40084C399 /* OnPaceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnPaceUITests.m; sourceTree = "<group>"; };
+		15997C8F1D64FED40084C399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15997C921D64FED40084C399 /* OnPace WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OnPace WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15997C981D64FED40084C399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		15997C9A1D64FED40084C399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15997C9C1D64FED40084C399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15997CA11D64FED40084C399 /* OnPace WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "OnPace WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15997CA71D64FED40084C399 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		15997CA81D64FED40084C399 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		15997CA91D64FED40084C399 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		15997CAB1D64FED40084C399 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		15997CAC1D64FED40084C399 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		15997CAE1D64FED40084C399 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		15997CAF1D64FED40084C399 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		15997CB11D64FED40084C399 /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		15997CB21D64FED40084C399 /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		15997CB41D64FED40084C399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15997CB61D64FED40084C399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15997CD01D651A3C0084C399 /* SetPaceInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetPaceInterfaceController.h; sourceTree = "<group>"; };
+		15997CD11D651A3C0084C399 /* SetPaceInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetPaceInterfaceController.m; sourceTree = "<group>"; };
+		15997CD41D651F810084C399 /* TimerInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerInterfaceController.h; sourceTree = "<group>"; };
+		15997CD51D651F810084C399 /* TimerInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerInterfaceController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15997C621D64FED40084C399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15997C7B1D64FED40084C399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15997C861D64FED40084C399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15997C9E1D64FED40084C399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15997C5C1D64FED40084C399 = {
+			isa = PBXGroup;
+			children = (
+				15997C671D64FED40084C399 /* OnPace */,
+				15997C811D64FED40084C399 /* OnPaceTests */,
+				15997C8C1D64FED40084C399 /* OnPaceUITests */,
+				15997C961D64FED40084C399 /* OnPace WatchKit App */,
+				15997CA51D64FED40084C399 /* OnPace WatchKit Extension */,
+				15997C661D64FED40084C399 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15997C661D64FED40084C399 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15997C651D64FED40084C399 /* OnPace.app */,
+				15997C7E1D64FED40084C399 /* OnPaceTests.xctest */,
+				15997C891D64FED40084C399 /* OnPaceUITests.xctest */,
+				15997C921D64FED40084C399 /* OnPace WatchKit App.app */,
+				15997CA11D64FED40084C399 /* OnPace WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15997C671D64FED40084C399 /* OnPace */ = {
+			isa = PBXGroup;
+			children = (
+				15997C6B1D64FED40084C399 /* AppDelegate.h */,
+				15997C6C1D64FED40084C399 /* AppDelegate.m */,
+				15997C6E1D64FED40084C399 /* ViewController.h */,
+				15997C6F1D64FED40084C399 /* ViewController.m */,
+				15997C711D64FED40084C399 /* Main.storyboard */,
+				15997C741D64FED40084C399 /* Assets.xcassets */,
+				15997C761D64FED40084C399 /* LaunchScreen.storyboard */,
+				15997C791D64FED40084C399 /* Info.plist */,
+				15997C681D64FED40084C399 /* Supporting Files */,
+			);
+			path = OnPace;
+			sourceTree = "<group>";
+		};
+		15997C681D64FED40084C399 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15997C691D64FED40084C399 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15997C811D64FED40084C399 /* OnPaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				15997C821D64FED40084C399 /* OnPaceTests.m */,
+				15997C841D64FED40084C399 /* Info.plist */,
+			);
+			path = OnPaceTests;
+			sourceTree = "<group>";
+		};
+		15997C8C1D64FED40084C399 /* OnPaceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15997C8D1D64FED40084C399 /* OnPaceUITests.m */,
+				15997C8F1D64FED40084C399 /* Info.plist */,
+			);
+			path = OnPaceUITests;
+			sourceTree = "<group>";
+		};
+		15997C961D64FED40084C399 /* OnPace WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				15997C971D64FED40084C399 /* Interface.storyboard */,
+				15997CD41D651F810084C399 /* TimerInterfaceController.h */,
+				15997CD51D651F810084C399 /* TimerInterfaceController.m */,
+				15997CD01D651A3C0084C399 /* SetPaceInterfaceController.h */,
+				15997CD11D651A3C0084C399 /* SetPaceInterfaceController.m */,
+				15997C9A1D64FED40084C399 /* Assets.xcassets */,
+				15997C9C1D64FED40084C399 /* Info.plist */,
+			);
+			path = "OnPace WatchKit App";
+			sourceTree = "<group>";
+		};
+		15997CA51D64FED40084C399 /* OnPace WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				15997CA81D64FED40084C399 /* InterfaceController.h */,
+				15997CA91D64FED40084C399 /* InterfaceController.m */,
+				15997CAB1D64FED40084C399 /* ExtensionDelegate.h */,
+				15997CAC1D64FED40084C399 /* ExtensionDelegate.m */,
+				15997CAE1D64FED40084C399 /* NotificationController.h */,
+				15997CAF1D64FED40084C399 /* NotificationController.m */,
+				15997CB11D64FED40084C399 /* GlanceController.h */,
+				15997CB21D64FED40084C399 /* GlanceController.m */,
+				15997CB41D64FED40084C399 /* Assets.xcassets */,
+				15997CB61D64FED40084C399 /* Info.plist */,
+				15997CA61D64FED40084C399 /* Supporting Files */,
+			);
+			path = "OnPace WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		15997CA61D64FED40084C399 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15997CA71D64FED40084C399 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15997C641D64FED40084C399 /* OnPace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15997CC11D64FED40084C399 /* Build configuration list for PBXNativeTarget "OnPace" */;
+			buildPhases = (
+				15997C611D64FED40084C399 /* Sources */,
+				15997C621D64FED40084C399 /* Frameworks */,
+				15997C631D64FED40084C399 /* Resources */,
+				15997CC01D64FED40084C399 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15997C951D64FED40084C399 /* PBXTargetDependency */,
+			);
+			name = OnPace;
+			productName = OnPace;
+			productReference = 15997C651D64FED40084C399 /* OnPace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15997C7D1D64FED40084C399 /* OnPaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15997CC41D64FED40084C399 /* Build configuration list for PBXNativeTarget "OnPaceTests" */;
+			buildPhases = (
+				15997C7A1D64FED40084C399 /* Sources */,
+				15997C7B1D64FED40084C399 /* Frameworks */,
+				15997C7C1D64FED40084C399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15997C801D64FED40084C399 /* PBXTargetDependency */,
+			);
+			name = OnPaceTests;
+			productName = OnPaceTests;
+			productReference = 15997C7E1D64FED40084C399 /* OnPaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15997C881D64FED40084C399 /* OnPaceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15997CC71D64FED40084C399 /* Build configuration list for PBXNativeTarget "OnPaceUITests" */;
+			buildPhases = (
+				15997C851D64FED40084C399 /* Sources */,
+				15997C861D64FED40084C399 /* Frameworks */,
+				15997C871D64FED40084C399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15997C8B1D64FED40084C399 /* PBXTargetDependency */,
+			);
+			name = OnPaceUITests;
+			productName = OnPaceUITests;
+			productReference = 15997C891D64FED40084C399 /* OnPaceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		15997C911D64FED40084C399 /* OnPace WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15997CBD1D64FED40084C399 /* Build configuration list for PBXNativeTarget "OnPace WatchKit App" */;
+			buildPhases = (
+				15997C901D64FED40084C399 /* Resources */,
+				15997CBC1D64FED40084C399 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15997CA41D64FED40084C399 /* PBXTargetDependency */,
+			);
+			name = "OnPace WatchKit App";
+			productName = "OnPace WatchKit App";
+			productReference = 15997C921D64FED40084C399 /* OnPace WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		15997CA01D64FED40084C399 /* OnPace WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15997CB91D64FED40084C399 /* Build configuration list for PBXNativeTarget "OnPace WatchKit Extension" */;
+			buildPhases = (
+				15997C9D1D64FED40084C399 /* Sources */,
+				15997C9E1D64FED40084C399 /* Frameworks */,
+				15997C9F1D64FED40084C399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OnPace WatchKit Extension";
+			productName = "OnPace WatchKit Extension";
+			productReference = 15997CA11D64FED40084C399 /* OnPace WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15997C5D1D64FED40084C399 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ryan Rizzo";
+				TargetAttributes = {
+					15997C641D64FED40084C399 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					15997C7D1D64FED40084C399 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 15997C641D64FED40084C399;
+					};
+					15997C881D64FED40084C399 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 15997C641D64FED40084C399;
+					};
+					15997C911D64FED40084C399 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					15997CA01D64FED40084C399 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 15997C601D64FED40084C399 /* Build configuration list for PBXProject "OnPace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15997C5C1D64FED40084C399;
+			productRefGroup = 15997C661D64FED40084C399 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15997C641D64FED40084C399 /* OnPace */,
+				15997C7D1D64FED40084C399 /* OnPaceTests */,
+				15997C881D64FED40084C399 /* OnPaceUITests */,
+				15997C911D64FED40084C399 /* OnPace WatchKit App */,
+				15997CA01D64FED40084C399 /* OnPace WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15997C631D64FED40084C399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15997C781D64FED40084C399 /* LaunchScreen.storyboard in Resources */,
+				15997C751D64FED40084C399 /* Assets.xcassets in Resources */,
+				15997C731D64FED40084C399 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15997C7C1D64FED40084C399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15997C871D64FED40084C399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15997C901D64FED40084C399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15997C9B1D64FED40084C399 /* Assets.xcassets in Resources */,
+				15997C991D64FED40084C399 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15997C9F1D64FED40084C399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15997CB51D64FED40084C399 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15997C611D64FED40084C399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15997C701D64FED40084C399 /* ViewController.m in Sources */,
+				15997C6D1D64FED40084C399 /* AppDelegate.m in Sources */,
+				15997C6A1D64FED40084C399 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15997C7A1D64FED40084C399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15997C831D64FED40084C399 /* OnPaceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15997C851D64FED40084C399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15997C8E1D64FED40084C399 /* OnPaceUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15997C9D1D64FED40084C399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15997CD31D651BA90084C399 /* SetPaceInterfaceController.m in Sources */,
+				15997CAD1D64FED40084C399 /* ExtensionDelegate.m in Sources */,
+				15997CAA1D64FED40084C399 /* InterfaceController.m in Sources */,
+				15997CB01D64FED40084C399 /* NotificationController.m in Sources */,
+				15997CB31D64FED40084C399 /* GlanceController.m in Sources */,
+				15997CD61D651F810084C399 /* TimerInterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15997C801D64FED40084C399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15997C641D64FED40084C399 /* OnPace */;
+			targetProxy = 15997C7F1D64FED40084C399 /* PBXContainerItemProxy */;
+		};
+		15997C8B1D64FED40084C399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15997C641D64FED40084C399 /* OnPace */;
+			targetProxy = 15997C8A1D64FED40084C399 /* PBXContainerItemProxy */;
+		};
+		15997C951D64FED40084C399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15997C911D64FED40084C399 /* OnPace WatchKit App */;
+			targetProxy = 15997C941D64FED40084C399 /* PBXContainerItemProxy */;
+		};
+		15997CA41D64FED40084C399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15997CA01D64FED40084C399 /* OnPace WatchKit Extension */;
+			targetProxy = 15997CA31D64FED40084C399 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15997C711D64FED40084C399 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15997C721D64FED40084C399 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15997C761D64FED40084C399 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15997C771D64FED40084C399 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		15997C971D64FED40084C399 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15997C981D64FED40084C399 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15997CB71D64FED40084C399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15997CB81D64FED40084C399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15997CBA1D64FED40084C399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "OnPace WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanrizzo.OnPace.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		15997CBB1D64FED40084C399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "OnPace WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanrizzo.OnPace.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		15997CBE1D64FED40084C399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = OnPace_WatchKit_Extension;
+				INFOPLIST_FILE = "OnPace WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanrizzo.OnPace.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		15997CBF1D64FED40084C399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = OnPace_WatchKit_Extension;
+				INFOPLIST_FILE = "OnPace WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanrizzo.OnPace.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		15997CC21D64FED40084C399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OnPace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanrizzo.OnPace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		15997CC31D64FED40084C399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OnPace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanrizzo.OnPace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		15997CC51D64FED40084C399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OnPaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanrizzo.OnPaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnPace.app/OnPace";
+			};
+			name = Debug;
+		};
+		15997CC61D64FED40084C399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OnPaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanrizzo.OnPaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnPace.app/OnPace";
+			};
+			name = Release;
+		};
+		15997CC81D64FED40084C399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OnPaceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanrizzo.OnPaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OnPace;
+			};
+			name = Debug;
+		};
+		15997CC91D64FED40084C399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OnPaceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanrizzo.OnPaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OnPace;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15997C601D64FED40084C399 /* Build configuration list for PBXProject "OnPace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15997CB71D64FED40084C399 /* Debug */,
+				15997CB81D64FED40084C399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15997CB91D64FED40084C399 /* Build configuration list for PBXNativeTarget "OnPace WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15997CBA1D64FED40084C399 /* Debug */,
+				15997CBB1D64FED40084C399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15997CBD1D64FED40084C399 /* Build configuration list for PBXNativeTarget "OnPace WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15997CBE1D64FED40084C399 /* Debug */,
+				15997CBF1D64FED40084C399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15997CC11D64FED40084C399 /* Build configuration list for PBXNativeTarget "OnPace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15997CC21D64FED40084C399 /* Debug */,
+				15997CC31D64FED40084C399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15997CC41D64FED40084C399 /* Build configuration list for PBXNativeTarget "OnPaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15997CC51D64FED40084C399 /* Debug */,
+				15997CC61D64FED40084C399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15997CC71D64FED40084C399 /* Build configuration list for PBXNativeTarget "OnPaceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15997CC81D64FED40084C399 /* Debug */,
+				15997CC91D64FED40084C399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15997C5D1D64FED40084C399 /* Project object */;
+}
