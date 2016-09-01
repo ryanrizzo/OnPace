@@ -12,7 +12,7 @@
                     <items>
                         <label alignment="left" text="Label" id="j9X-34-Oj2"/>
                         <label alignment="left" text="Label" id="QFF-iG-cNg"/>
-                        <slider width="1" alignment="left" value="120" minimum="60" maximum="350" steps="95" id="4lo-tj-a0K">
+                        <slider width="1" alignment="left" value="160" maximum="190" steps="50" id="4lo-tj-a0K">
                             <connections>
                                 <action selector="sliderChangedValue:" destination="AgC-eL-Hgc" id="5cZ-eX-hk5"/>
                             </connections>
@@ -50,13 +50,15 @@
                             </connections>
                         </button>
                         <button width="1" alignment="left" title="Register Mile Pace" id="wOc-44-Icm">
+                            <accessibilityTraits key="accessibilityTraits" button="YES" updatesFrequently="YES"/>
                             <connections>
-                                <segue destination="AgC-eL-Hgc" kind="push" identifier="RegisterPace" id="haM-rZ-iP2"/>
+                                <action selector="registerPace" destination="0mt-fo-73s" id="Xau-RF-y4E"/>
                             </connections>
                         </button>
                     </items>
                     <connections>
                         <outlet property="BPMLabel" destination="dpx-5N-R2c" id="qxA-Pj-jUC"/>
+                        <outlet property="registerPaceButton" destination="wOc-44-Icm" id="epF-dk-EV5"/>
                         <outlet property="startButton" destination="pSd-Ru-B11" id="b0M-VG-tBN"/>
                         <outlet property="timer" destination="SKQ-ji-Ici" id="ise-id-4A3"/>
                     </connections>

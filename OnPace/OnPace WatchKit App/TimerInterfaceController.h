@@ -10,5 +10,11 @@
 #import <Foundation/Foundation.h>
 
 @interface TimerInterfaceController : WKInterfaceController
+@property (unsafe_unretained, nonatomic) IBOutlet WKInterfaceLabel *BPMLabel;
+@property (unsafe_unretained, nonatomic) IBOutlet WKInterfaceTimer *timer;
+@property (unsafe_unretained, nonatomic) IBOutlet NSTimer *t;
+@property (unsafe_unretained, nonatomic) IBOutlet WKInterfaceButton *startButton;
+@property (unsafe_unretained, nonatomic) IBOutlet WKInterfaceButton *registerPaceButton;
+- (IBAction)registerPace;
 
 @end
